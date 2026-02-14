@@ -46,7 +46,7 @@ def save_usage():
 def get_base_url(server_name: str) -> str:
     if server_name == "IND":
         return "https://client.ind.freefiremobile.com"
-    elif server_name in {"BR", "US", "SAC", "NA"}:
+    elif server_name in {"BR", "US", "SAC", "NA", "BD"}:
         return "https://client.us.freefiremobile.com"
     else:
         return "https://clientbp.ggblueshark.com"
